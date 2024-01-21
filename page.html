@@ -4,17 +4,34 @@
       <link rel="stylesheet" href="./style.css" />
         <title> nouvelle page</title>
         <link rel="icon" href="image/IMG_5346.jpg" type="image/x-icon"/>
+        <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
     <body>
-      <nav class="navbar">
-        <ul>
-            <li><a href="#">Accueil</a></li> 
-            <li><a href="#">A propos</a></li> 
-            <li><a href="#">Travail</a></li> 
-            <li><a href="#">CV</a></li>
-            <li><a href="#"> Contact</a></li> 
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="100px" height="100px" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content center mb-md-0">
+            <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+  
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+          </form>
+  
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">Login</button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+        </div>
+      </div>
     <h1>page de Ibou</h1>
         <p class="elliptical"> bienvenue dans ma page</p>
         <!-- voici la Video-->
@@ -77,6 +94,7 @@
             <option value="formulaire">formulaire</option>
             <option value="tableau">tableau</option>
           </select>
+          
           <footer>
 
               <div class="contenu-footer">
@@ -91,42 +109,53 @@
                         <li><a href="#">Start-up</a></li>
                       </ul>
                   </div>
-
-                  <div class="contenu-footer">
-                    <div class="bloc footer-services">
-                        <h5>restons en contact</h5>
-                        <p>77-132-55-96</p>
-                        <p>diopibrahima369@gmail.com</p>
-                        <p>Hlm Grand Yoff, Shelter2, Villa N°1022</p>   
-                    </div>
-
-                    <div class="contenu-footer">
-                      <div class="bloc footer-services">
-                          <h5>nos horraires</h5>
-                          <ul class="liste-services">
-                            <li>✔️lun 10h-20h</li>
-                            <li>✔️mar 10h-20h</li>
-                            <li>✔️mer 10h-20h</li>
-                            <li>✔️jeu 10h-20h</li>
-                            <li>✔️ven 10h-20h</li>
-                            <li>❌sam fermé</li>
-                            <li>❌dim fermé</li>
-                          </ul>
-                      </div>
-
-                      <div class="contenu-footer">
-                        <div class="bloc footer-services">
-                            <h5>nos réseaux sociaux</h5>
-                            <ul class="liste-services">
-                              <li><img src="image/facebook icon.png" width="15" height="15"><a href="#"><alt="icones résaux sociaux>facebook/monsite</a></li>
-                              <li><img src="image/icon instagram.jpeg" width="15" height="15"><a href="#"><alt="icones résaux sociaux>instagram/monsite</a></li>
-                              <li><img src="image/icon twitter.png" width="15" height="15"><a href="#"><alt="icones résaux sociaux>twitter/monsite</a></li>
-                              <li><img src="image/snap icon.png" width="15" height="15"><a href="#"><alt="icones résaux sociaux>snapchat/monsite</a></li>
-                            </ul>
-                        </div>
-
-              </div>
-          
-            </footer>
+            <div class="container">
+              <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                <div class="col mb-3">
+                  <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                  </a>
+                  <p class="text-body-secondary">© 2023</p>
+                </div>
+            
+                <div class="col mb-3">
+            
+                </div>
+            
+                <div class="col mb-3">
+                  <h5>liste-services</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">herbegement</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">nom de domaines</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">E-commerce></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Machine Learning</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">finances</a></li>
+                  </ul>
+                </div>
+            
+                <div class="col mb-3">
+                  <h5>horaires</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">✔️lun 10h-20h</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">✔️mar 10h-20h</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">✔️mer 10h-20h</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">✔️jeu 10h-20h</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">✔️ven 10h-20h</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">❌sam fermé</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">❌dim fermé</a></li>
+                  </ul>
+                </div>
+            
+                <div class="col mb-3">
+                  <h5>réseaux sociaux</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><img src="image/facebook icon.png" width="10" height="10"><a href="#"><alt="icones résaux sociaux>facebook/monsite</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><img src="image/icon instagram.jpeg" width="10" height="10"><a href="#"><alt="icones résaux sociaux>instagram/monsite</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><img src="image/icon twitter.png" width="10" height="10"><a href="#"><alt="icones résaux sociaux>twitter/monsite</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><img src="image/snap icon.png" width="10" height="10"><a href="#"><alt="icones résaux sociaux>snapchat/monsite</a></li>
+                  </ul>
+                </div>
+              </footer>
+            </div>
     </body>    
 </html>
